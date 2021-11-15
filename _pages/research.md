@@ -5,8 +5,8 @@ permalink: /research/
 
 ## Magnetic field in relativistic jets of supermassive black holes
 
-### Master Thesis Supervised by Dr. José Luis Gómez
-### Instituto de Astrofísica de Andalucía (IAA-CSIC), Granada, Spain
+### Master Thesis Supervised by Dr. José Luis Gómez \
+Instituto de Astrofísica de Andalucía (IAA-CSIC), Granada, Spain\
 
 Aim: To analyse the multi-frequency VLBA polarimetric observations from the BG216 program to determine the structure of the magnetic field in the jet of AGN. The observations include quasars (3C 273, CTA 102), BL Lac objects (BL Lac, 0716+714) and radio galaxies (3C 111, 3C 120). Additionally, we will also analyse some VLBA archival polarimetric data of different AGN. Total intensity and linearly polarized images, and rotation measure (RM) maps will be produced to determine the structure of the magnetic field from the analysis of Faraday rotation and the polarization angle. This will allow us to the analyse the magnetic field in the jets of different AGN at different spatial scales and hence allow us to understand the jet formation and stability.
 
@@ -17,12 +17,12 @@ Skills obtained (till October 2021): Understanding of VLBI, calibration using AI
 
 
 
-## Origin of extended radio emission in narrow-line Seyfert 1 galaxies with JVLA
+## Unravelling the origin of extended radio emission in narrow-line Seyfert 1 galaxies with JVLA
 
 ### Publication: arXiv:2109.07841 , Accepted for publication in Astronomy & Astrophysics, 16 Sep 2021. 
 
-### Supervisor: Dr. Emilia Järvelä
-### European Space Agency, European Space Astronomy Centre, Spain
+### Supervisor: Dr. Emilia Järvelä \
+European Space Agency, European Space Astronomy Centre, Spain \
 
 Aim: To determine the predominant source of radio emission in a sample of 44 NLS1s, selected based on their extended kpc-scale radio morphologies at 5.2 GHz.
 
@@ -37,6 +37,6 @@ Skills obtained: Understanding of interferometry technique and AGN, calibration 
 
 ### First Author Paper, Manuscript in Preparation
 
-### Collaboration: R. Antonucci, D. Hines, M. Kishimoto, A. Acharya
+### Collaboration: R. Antonucci, D. Hines, M. Kishimoto, A. Acharya \
 
 According to Koratkar A. et al., 1995, the polarisation of the quasar measured with the HST/FOS showed a steep rise below the Lyman edge, values reaching above ∼ 20%, never seen before in non-blazar active galaxies. The aim of this paper was to verify this result using the HST/FOC observations in optical/uv by determining the polarisation on both sides of the Lyman edge. The photutils package of AstroPy was used to analyse the data to find that the polarisation is only ~ 3%. We also followed up with the same set of FOS observations in Koratkar A. et al., 1995 to find that the results are incorrect. We have just completed the manuscript to be submitted to a peer-reviewed journal.
