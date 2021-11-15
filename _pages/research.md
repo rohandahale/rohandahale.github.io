@@ -3,7 +3,7 @@ title: "Research"
 permalink: /research/
 ---
 
-## Master Thesis Title: Magnetic field in relativistic jets of supermassive black holes
+## Magnetic field in relativistic jets of supermassive black holes
 
 ### Supervisor: Dr. José Luis Gómez
 ### Instituto de Astrofísica de Andalucía (IAA-CSIC), Granada, Spain
