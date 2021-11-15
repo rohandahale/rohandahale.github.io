@@ -5,7 +5,7 @@ permalink: /research/
 
 ## Magnetic field in relativistic jets of supermassive black holes
 
-### Supervisor: Dr. José Luis Gómez
+### Master Thesis Supervised by Dr. José Luis Gómez
 ### Instituto de Astrofísica de Andalucía (IAA-CSIC), Granada, Spain
 
 Aim: To analyse the multi-frequency VLBA polarimetric observations from the BG216 program to determine the structure of the magnetic field in the jet of AGN. The observations include quasars (3C 273, CTA 102), BL Lac objects (BL Lac, 0716+714) and radio galaxies (3C 111, 3C 120). Additionally, we will also analyse some VLBA archival polarimetric data of different AGN. Total intensity and linearly polarized images, and rotation measure (RM) maps will be produced to determine the structure of the magnetic field from the analysis of Faraday rotation and the polarization angle. This will allow us to the analyse the magnetic field in the jets of different AGN at different spatial scales and hence allow us to understand the jet formation and stability.
@@ -17,7 +17,7 @@ Skills obtained (till October 2021): Understanding of VLBI, calibration using AI
 
 
 
-## Unravelling the origin of extended radio emission in narrow-line Seyfert 1 galaxies with JVLA
+## Origin of extended radio emission in narrow-line Seyfert 1 galaxies with JVLA
 
 ### Publication: arXiv:2109.07841 , Accepted for publication in Astronomy & Astrophysics, 16 Sep 2021. 
 
