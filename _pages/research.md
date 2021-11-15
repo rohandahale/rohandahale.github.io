@@ -13,6 +13,7 @@ Aim: To analyse the multi-frequency VLBA polarimetric observations from the BG21
 Elementary statistical analysis of all the sources analysed will be performed which will allow us to understand the qualitative differences in the different sources. The output of this will be useful in conducting a large-scale studies of jets in AGN like the MOJAVE and the VLBA-BU-BLAZAR programs. The results will be published in a research paper in a peer-reviewed journal.
 
 Status: For 0716 +714, the initial phase and amplitude calibration are performed on the AIPS using ParselTongue following the standard procedure for polarimetric observations. The data is cleaned, self- calibrated, and imaged both in total and polarized intensity with Difmap. The analysis for rest of the sources will be completed by January 2022.
+
 Skills obtained (till October 2021): Understanding of VLBI, calibration using AIPS and ParselTongue, self-calibration, cleaning and imaging of data using Difmap and eht-imaging.
 
 
@@ -29,6 +30,7 @@ Aim: To determine the predominant source of radio emission in a sample of 44 NLS
 Analysis: We accomplish this by analysing their spatially resolved radio spectral index maps, centred at 5.2 GHz, as the spectral index carries information about the production mechanisms of the emission. The data is calibrated using the EVLA pipeline and the radio maps and spectral index maps are produced using the CASA tclean task to do multi-term (multi-scale) multi-frequency synthesis, mt-mfs. Additionally tapered maps are produced to enhance the sensitivity to extended structures. Post-imaging, several correction steps were performed to achieve the final spectral index maps.
 
 Results: We find an extraordinary diversity among our sample. Due to the variety seen in NLS1s simple proxies, such as the star formation diagnostics also employed in this paper, and the radio loudness parameter, are not ideal tools for characterising NLS1s. We emphasise the necessity of examining NLS1s as individuals, instead of making assumptions based on their classification.
+
 Skills obtained: Understanding of interferometry technique and AGN, calibration and imaging using CASA, producing and understanding spectral index maps.
 
 
