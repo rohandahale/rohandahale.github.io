@@ -86,7 +86,7 @@ author:
   location         : "Granada, Spain"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.es/citations?user=zbUc-wEAAAAJ&hl=es&oi=ao"
   email            : "rd17ms194@iiserkol.ac.in"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,8 +103,8 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : 
-  pinterest        :
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-6982-9034"
+  pinterest        : 
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
