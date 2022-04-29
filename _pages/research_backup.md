@@ -1,9 +1,7 @@
 ---
 title: "Research"
-permalink: /research/
+permalink: /research2/
 ---
-
-To be updated.
 
 ## Magnetic field in relativistic jets of supermassive black holes
 
