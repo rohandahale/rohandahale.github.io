@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am working with Dr. José L. Gómez at Instituto de Astrofísica de Andalucía, IAA - CSIC, Granada, Spain for my Master’s Thesis for the academic year 2021-2022. The aim of the thesis is to determine the magnetic field structure of relativistic jets of supermassive black holes by analysing multi-frequency VLBA polarimetric observations. The project is funded by JAE Intro 2021 Scholarship by CSIC, Spain.
+I am working with Dr. José L. Gómez in the [VLBI Group](http://vlbigroup.iaa.es) at Instituto de Astrofísica de Andalucía, IAA - CSIC, Granada, Spain for my Master’s Thesis for the academic year 2021-2022. The aim of the thesis is to determine the magnetic field structure of relativistic jets of supermassive black holes by analysing multi-frequency VLBA polarimetric observations. The project is funded by JAE Intro 2021 Scholarship by CSIC, Spain.
 
 ## Research Interests
 

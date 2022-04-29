@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Rohan Dahale"
   avatar           : "rohan.jpg"
-  bio              : "Master Thesis at IAA-CSIC. Supervisor: Dr. José L. Gómez"
+  bio              : "Master Thesis at IAA-CSIC. Supervisor: <a href="http://vlbigroup.iaa.es"> Dr. José L. Gómez </a>"
   location         : "Granada, Spain"
   employer         :
   pubmed           : 
