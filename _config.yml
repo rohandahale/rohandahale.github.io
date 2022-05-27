@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Rohan Dahale"
   avatar           : "rohan.jpg"
-  bio              : "Master Thesis at IAA-CSIC. Supervisor: Dr. José L. Gómez"
+  bio              : "Master Thesis at IAA-CSIC. <br> Supervisor: Dr. José L. Gómez"
   location         : "Granada, Spain"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.es/citations?user=zbUc-wEAAAAJ&hl=es&oi=ao"
-  email            : "rd17ms194@iiserkol.ac.in"
+  email            : "rdahale@iaa.es"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
