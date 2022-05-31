@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Rohan Dahale"
 title_separator          : "-"
 name                     : &name "Rohan Dahale"
-description              : &description "Final Year BS-MS Physics Student"
+description              : &description "PhD Candidate at IAA-CSIC"
 url                      : https://rohandahale.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rohandahale/rohandahale.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Rohan Dahale"
   avatar           : "rohan.jpg"
-  bio              : "Master Thesis at IAA-CSIC. <br> Supervisor: Dr. José L. Gómez"
+  bio              : "PhD Candidate at IAA-CSIC. <br> Supervisor: Dr. José L. Gómez"
   location         : "Granada, Spain"
   employer         :
   pubmed           : 
