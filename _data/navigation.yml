@@ -6,8 +6,8 @@ main:
   #- title: "Portfolio"
     #url: /portfolio/
 
-  - title: "Research"
-    url: /research/
+  #- title: "Research"
+    #url: /research/
 
   - title: "Publications"
     url: /publications/
@@ -15,8 +15,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Blog"
-    url: /blog/
+  #- title: "Blog"
+    #url: /blog/
 
   - title: "Contact"
     url: /contact/
