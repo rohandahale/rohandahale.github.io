@@ -1,1 +1,1 @@
-Sitemap: https://rohandahale.com/sitemap.xml
+Sitemap: https://rohandahale.github.io/sitemap.xml
