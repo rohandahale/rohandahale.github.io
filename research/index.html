@@ -146,6 +146,18 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://rohandahale.github.io/">Rohan Dahale</a></li>
           
+            
+            <li class="masthead__menu-item"><a href="https://rohandahale.github.io/research/">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://rohandahale.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://rohandahale.github.io/cv/">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://rohandahale.github.io/contact/">Contact</a></li>
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -259,7 +271,48 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>To be updated.</p>
+        <p>My research focuses black hole accretion processes and performing tests of General Relativity (GR) through direct imaging/modeling of supermassive black holes (SMBHs). For these studies, I use global networks of radio telescopes to image/model the immediate surroundings of nearby SMBHs. One such example of global very long baseline interferometric (VLBI) telescope is the Event Horizon Telescope (EHT). Since EHT samples sparse spatial frequencies, a robust uncertainty quantification is required for reliably making image/video reconstructions and extracting physical information. Hence, throughout my PhD, I have led several projects integral to the core science of EHT, developed tools that use Bayesian inference and produced results that give insights into black hole accretion and test GR.</p>
+
+<h2 id="1-uncertainty-quantification-of-the-black-hole-shadow-of-m87">1. Uncertainty quantification of the black hole shadow of M87</h2>
+
+<p>The first image of black hole image M87, published by the EHT in 2019, marked a direct measurement of size of a black hole shadow [<a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85">1</a>]. According to the theory of General Relativity (GR), a (Kerr) black hole is fully characterized by its mass and spin. This resulted in the first test of GR using direct images. However, since EHT has poorly sampled spatial frequencies, an uncertainty quantification of the images and hence the extracted features like diameter is essential to the test of GR. Moreover, it is also important to analyze variability or persistence of this shadow. Given that M87, accretes matter slowly, we expect the size of M87 emission ring to be nearly constant within ~ a year. Following that, <strong>I led the work of imaging the black hole shadow M87 with the enhanced EHT observations taken a year later, with a Bayesian imaging method <a href="https://github.com/ptiede/Comrade.jl/">Comrade.jl</a> (one of the five imaging methods used)</strong>. Comrade.jl provides of full probability distribution (posterior) of images and instrument calibration and hence it is extremely useful for error quantification when we have poorly sampled spatial frequencies.</p>
+
+<p><img src="/files/Comrade_2018m87.png" alt="alternatetext" /></p>
+
+<p>This work was important for three reasons: 1) M87 has the same ring size as the first image as expected 2) The year-scale variability is exhibited by the change in brightness position. This is explained by being a random snapshot of a turbulent flow. 3) Comrade.jl was the first method to gave posteriors of the image (see the mean and standard deviation images in the above figure) and posteriors of the instrument gains. I was in charge of writing the sections on Comrade.jl in this paper [<a href="https://doi.org/10.1051/0004-6361/202347932">2</a>], which will be a part of my PhD thesis.</p>
+
+<h2 id="2-origin-of-the-ring-ellipticity-in-the-black-hole-images-of-m87">2. Origin of the ring ellipticity in the black hole images of M87</h2>
+
+<p>General Relativity predicts that the image of the M87 shadow should be nearly circular given the inclination angle of M87. If the ellipticity can be found to be source intrinsic, it could signal new gravitational physics on horizon scales. As we can see in the above figure, the emission ring does appear to have some ellipticity. <strong>So to find the origin of this ring ellipticity in M87 images, I led a first author paper in the EHT</strong>. This paper will form the main part of my PhD thesis. The following are the conclusions of the paper:</p>
+
+<ul>
+  <li>With the enhanced EHT array in 2018, the Greenland telescope fills the right coverage holes in the 2017 data. This allows a) all of our imaging methods to robust detect true ellipticity for geometric tests b) it gives 2 times better precision in the ellipticity measurements.</li>
+  <li>We detect an a non zero ellipticity in M87 with this 2018 EHT data. This is measurement is consistent with the ellipticity measurements of the simulations at the nominal EHT resolution of 20$\mu$as.</li>
+  <li>Given the low inclination of M87 and limited resolution of the EHT array, it is not possible to detect the intrinsic spin dependent ellipticity. This can be done with future space arrays with higher resolution.</li>
+  <li>The measured image ellipticity originates from the turbulent accretion flow. Using simulations, we found that the ellipticity is correlated with the non-ring flux of the accretion flow spirals.</li>
+</ul>
+
+<h2 id="3-dynamics-of-sgra-black-hole-at-the-center-of-our-galaxy">3. Dynamics of SgrA* black hole at the center of our galaxy</h2>
+
+<p>Unlike M87, the black at the center of our galaxy, SgrA is extremely variable (order or seconds to minutes). Hence, we cannot make just an image of the black hole SgrA* but rather reconstruct videos. This video reconstruction will help us constrain important physical properties of black hole like spin and better understand black accretion.  Given the extremely sparse instantaneous sampled spatial frequencies, even if we have the best imaging algorithms, we need a way to validate and evaluate these video reconstructions. For this purpose, <strong>I am leading the work on validation and evaluation of these video reconstructions in the EHT Collaboration</strong>. I have a prepared a script that generates realistic synthetic data based on some geometric models. I have also developed a <a href="https://github.com/rohandahale/sgra-dynamics-evaluation" target="_blank">pipeline</a>  that evaluates the video reconstructions of the synthetic and real data of black holes to characterize whether it is a good reconstruction. This pipeline will be crucial to test our dynamical imaging methods and to claim whether we have a robust first video of a black hole. The package is hosted on <a href="https://github.com/rohandahale/sgra-dynamics-evaluation" target="_blank">GitHub</a>  as a open source code.</p>
+
+<p>Moreover, as mentioned above, given the extremely sparse instantaneous sampled spatial frequencies, getting a video reconstruction of a black hole is a non-trivial task. So instead of making a video, <strong>I am using Comrade.jl to perform simultaneous full Stokes Bayesian geometric snapshot and instrument modeling of SgrA.</strong> Since modeling requires less parameters to fit as compared with imaging, we can fit individual snapshots of the data even if the data is extremely sparse. Comrade.jl gives us full probability distribution of all the geometric model parameters and instrument calibration parameters at all times.</p>
+
+<h2 id="4-bayesian-dynamical-imaging-with-comradejl">4. Bayesian Dynamical Imaging with Comrade.jl</h2>
+
+<p>All current dynamical imaging methods are not capable of getting the following three things simultaneously:</p>
+<ul>
+  <li>Full probability distribution of the polarimeteric videos</li>
+  <li>Full probability distribution of the instrument calibration terms</li>
+  <li>A velocity profile of the video that is physical.</li>
+</ul>
+
+<p>I am working with <a href="https://cfa.harvard.edu/people/paul-tiede" target="_blank">Dr. Paul Tide</a> at Harvard, <a href="https://sites.mit.edu/kazuakiyama/" target="_blank">Dr. Kazu Akiyama</a> at MIT Haystack Observatory to develop <a href="https://github.com/ptiede/Comrade.jl/">Comrade.jl</a> and add these functionalities.</p>
+
+<hr />
+
+<p>[<a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85">1</a>] The Event Horizon Telescope Collaboration, et al., 2019, ApJL, 875, L4 <br />
+[<a href="https://doi.org/10.1051/0004-6361/202347932">2</a>] The Event Horizon Telescope Collaboration, et al., 2024, A&amp;A, 681, A79 <br /></p>
 
         
       </section>
